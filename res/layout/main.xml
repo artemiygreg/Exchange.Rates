@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:id="@+id/main">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView"
+                android:text="Обновлено:"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/dateUpdated"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:textColor="#ffff8600"
+                android:textStyle="bold"
+                android:paddingRight="3dp"/>
+        <Button
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnRefresh"
+                android:gravity="center"
+                android:paddingTop="7dp"
+                android:drawableTop="@drawable/ic_refresh"
+                android:background="@drawable/btn_refresh"
+                android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+   <!-- <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_alignParentLeft="false"
+            android:layout_above="@+id/linearLayout"
+            android:fillViewport="false" android:layout_below="@+id/main">
+    </ScrollView>-->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_below="@+id/main"
+            android:layout_above="@+id/linearLayout" android:weightSum="1">
+        <!--<LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/ic_usd"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/valueUsd"
+
+                    android:textSize="17sp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/change_usd" android:layout_gravity="center_vertical"
+                    android:textSize="12sp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15sp"
+                    android:id="@+id/ic_usd"
+                    android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/ic_eur"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/valueEur"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/change_eur" android:textSize="12sp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="15sp"
+                       android:id="@+id/ic_eur" android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/ic_ua"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:id="@+id/valueUa"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/change_ua" android:textSize="12sp"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="15sp"
+                       android:id="@+id/ic_ua"
+                       android:layout_gravity="center_vertical"/>
+        </LinearLayout>-->
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:id="@+id/btnShowMoreCurrent"
+                android:text="@string/showMoreCurrent"
+                android:background="@drawable/bg_show_more_current"
+                android:textSize="16sp"
+                android:layout_marginBottom="10sp"
+                android:layout_marginLeft="2sp"
+                android:layout_marginRight="2sp"/>
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listView"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/linearLayout">
+        <EditText
+                android:layout_width="wrap_content"
+                android:minWidth="50sp"
+                android:layout_height="match_parent"
+                android:id="@+id/editText"
+                android:gravity="center"
+                android:numeric="decimal"
+                android:background="@drawable/bg_field"
+                android:maxWidth="100sp" android:maxHeight="50sp" android:text="1"
+                android:maxLines="1" android:maxLength="7"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:id="@+id/spinner"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/result"
+                android:drawableRight="@drawable/ic_rub"
+                android:background="@drawable/bg_field"
+                android:gravity="center" android:paddingLeft="5sp" android:textColor="@color/colorWhite"
+                android:textSize="15sp" android:layout_marginLeft="10sp"/>
+    </LinearLayout>
+    <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@drawable/bg_anime"-->
+            <!--android:id="@+id/an"-->
+            <!--android:padding="4dp">-->
+    <!--</LinearLayout>-->
+</RelativeLayout>
+
