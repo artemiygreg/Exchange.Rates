@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.example_current.view.fragment.AllFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+</FrameLayout>
+<!-- From: file:/C:/Documents%20and%20Settings/Admin/Рабочий%20стол/Exchange.Rates/app/src/main/res/layout/fragment_all.xml -->

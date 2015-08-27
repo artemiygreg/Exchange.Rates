@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#cac7c7c7"/>
+            <corners android:radius="40dp"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle">
+            <solid android:color="@null"/>
+        </shape>
+    </item>
+</selector><!-- From: file:/C:/Documents%20and%20Settings/Admin/Рабочий%20стол/Exchange.Rates/app/src/main/res/drawable/bg_button_favorite.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+            android:entries="@array/sort_valute_array"
+            android:entryValues="@array/sort_valute_array"
+            android:key="@string/sortValute"
+            android:title="сортировать по"/>
+</PreferenceScreen><!-- From: file:/C:/Documents%20and%20Settings/Admin/Рабочий%20стол/Exchange.Rates/app/src/main/res/xml/client_preferences.xml -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <corners android:radius="12dp"/>
+        <solid android:color="@color/grey"/>
+
+    </shape>
+</item>
+</selector><!-- From: file:/C:/Documents%20and%20Settings/Admin/Рабочий%20стол/Exchange.Rates/app/src/main/res/drawable-hdpi/bg_anime.xml -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\android_SDK\SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-ca240246b807ae35a4f98a23200ab850b80dbe77.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-8eaf6abd4ba1012124c93cda3fc5553603c836f6.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\pre-dexed\debug\classes-80fc393ad520c510a91a0af345d179ae4f3677ba.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\pre-dexed\debug\classes-f0adeb3b3d13e9a1c1e91f5b6e56a32b103439d1.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Documents and Settings\Admin\Рабочий стол\Exchange.Rates\app\build\intermediates\pre-dexed\debug\classes-2d90002178a6327c69aec8fa5a2e3ac0463d14fe.jar" />
+    </item>
+
+</items>
