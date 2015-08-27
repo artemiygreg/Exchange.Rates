@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Курсы валют</string>
+    <string name="nameCurrent">"Наименование: "</string>
+    <string name="сodeCurrent">"код валюты: "</string>
+    <string name="idCurrent">"id валюты: "</string>
+    <string name="valueCurrent">"курс: "</string>
+    <string name="in">" в "</string>
+    <string name="load">"загрузка…"</string>
+    <string name="notData">нет данных</string>
+    <string name="notConnectionToInternet">проверьте соединение с интернетом</string>
+    <string name="settings">Настройки</string>
+    <string name="showMoreCurrent">показать больше</string>
+    <string name="hiddenCurrent">скрыть</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sortValute">sort_valute</string>
+    <string-array name="sort_valute_array">
+        <item>char_code (USD)</item>
+        <item>названию (Доллар США)</item>
+        <item>num_code (840)</item>
+    </string-array>
+</resources>
